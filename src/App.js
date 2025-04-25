@@ -49,7 +49,7 @@ const router = createBrowserRouter(
             <Route index 
                 element = {<Home />}
             />
-            <Route path = "info/"
+            {/* <Route path = "info/"
                 element = {
                     <CategoryPagesLayout 
                         capname="Info" 
@@ -143,7 +143,7 @@ const router = createBrowserRouter(
                 />
                 <Route path = "careers" 
                     element = {<LandingPagesLayout />} 
-                    // errorElement = { <CareersError /> }
+                    errorElement = { <CareersError /> }
                     >
                     <Route 
                         index 
@@ -186,9 +186,9 @@ const router = createBrowserRouter(
                 <Route path = "" 
                     
                 />
-                {/* <Route path = "/:id" 
+                <Route path = "/:id" 
                     element = {<DetailPagesLayout />} 
-                /> */}
+                />
                 <Route path = "governance" 
                     element = {<ListPagesLayout />} 
                 />
@@ -229,7 +229,7 @@ const router = createBrowserRouter(
                         element = {<Templates />} 
                     />
                 </Route>
-            </Route>
+            </Route> */}
 
             {/* Miscellaneous Pages */}
 
