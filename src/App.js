@@ -12,33 +12,33 @@ RouterProvider,
 
 // Layouts
 import RootLayout from './layouts/RootLayout';
-import ListPagesLayout from './layouts/ListPagesLayout';
-import CategoryPagesLayout from './layouts/CategoryPagesLayout';
-import DetailPagesLayout from './layouts/DetailPagesLayout';
-import LandingPagesLayout from './layouts/LandingPagesLayout';
+// import ListPagesLayout from './layouts/ListPagesLayout';
+// import CategoryPagesLayout from './layouts/CategoryPagesLayout';
+// import DetailPagesLayout from './layouts/DetailPagesLayout';
+// import LandingPagesLayout from './layouts/LandingPagesLayout';
 
 // Pages Routes
 import Home from './pages/Home';
 
-import Faq from './pages/info/Index';
-import Info from './pages/info/Index';
-import Contact from './pages/info/Contact';
+// import Faq from './pages/info/Index';
+// import Info from './pages/info/Index';
+// import Contact from './pages/info/Contact';
 // Style Guide
-import Styleguide   from './pages/info/styleguide/Index';
-import Atoms        from './pages/info/styleguide/Atoms';
-import Molecules    from './pages/info/styleguide/Molecules';
-import Organisms    from './pages/info/styleguide/Organisms';
-import Templates    from './pages/info/styleguide/Templates';
+// import Styleguide   from './pages/info/styleguide/Index';
+// import Atoms        from './pages/info/styleguide/Atoms';
+// import Molecules    from './pages/info/styleguide/Molecules';
+// import Organisms    from './pages/info/styleguide/Organisms';
+// import Templates    from './pages/info/styleguide/Templates';
 
-import ProjectsHome from './pages/projects/ProjectsHome'
+// import ProjectsHome from './pages/projects/ProjectsHome'
 
 
-import Governance from './pages/info/governance/Governance'
-import GovernanceDetails from './pages/info/governance/GovernanceDetails'
-import Careers, { careersLoader } from './pages/info/careers/Careers';
-import CareerDetails, { careerDetailsLoader } from './pages/info/careers/CareerDetails';
-import CareersError from './pages/info/careers/CareersError';
-import Management from "./pages/info/management/Management";
+// import Governance from './pages/info/governance/Governance'
+// import GovernanceDetails from './pages/info/governance/GovernanceDetails'
+// import Careers, { careersLoader } from './pages/info/careers/Careers';
+// import CareerDetails, { careerDetailsLoader } from './pages/info/careers/CareerDetails';
+// import CareersError from './pages/info/careers/CareersError';
+// import Management from "./pages/info/management/Management";
 import PageNotFound from './pages/PageNotFound';
 // Function
 const router = createBrowserRouter(
