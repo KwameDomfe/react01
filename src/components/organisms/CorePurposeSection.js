@@ -18,12 +18,12 @@ function CorePurposeSection() {
                 className="gc1s12 gr1s2 w-100 h-100 cover bg-gray" 
             /> */}
 
-            {/* <div id="HeroSection__Overlay" 
+            <div id="HeroSection__Overlay" 
                 className="grid gc1s12 gr1s2 
                     items-center justify-center
                     h-100 bg-black-10"
             >
-            </div> */}
+            </div>
 
             <div id="HeroSection__Content" 
                 className="container container90
@@ -33,7 +33,7 @@ function CorePurposeSection() {
                 f2-00 blue0
                 ba b--white-40"
             >
-                <div className="gc1s12 gr1s1 flex flex-column items-center justify-cente ba b--white-20 pa0-25"
+                <div className="gc1s12 gr1s1 flex flex-column items-center justify-center ba b--black-20 pa0-25"
                 >
                     <h1 className="mv0-00 f2-25 f4-00-m ba b--white-20 ttu"
                     >

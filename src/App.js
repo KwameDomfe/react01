@@ -13,7 +13,7 @@ RouterProvider,
 // Layouts
 import RootLayout from './layouts/RootLayout';
 // import ListPagesLayout from './layouts/ListPagesLayout';
-// import CategoryPagesLayout from './layouts/CategoryPagesLayout';
+import CategoryPagesLayout from './layouts/CategoryPagesLayout';
 // import DetailPagesLayout from './layouts/DetailPagesLayout';
 // import LandingPagesLayout from './layouts/LandingPagesLayout';
 
@@ -21,7 +21,7 @@ import RootLayout from './layouts/RootLayout';
 import Home from './pages/Home';
 
 // import Faq from './pages/info/Index';
-// import Info from './pages/info/Index';
+import Info from './pages/info/Index';
 // import Contact from './pages/info/Contact';
 // Style Guide
 // import Styleguide   from './pages/info/styleguide/Index';
@@ -30,7 +30,7 @@ import Home from './pages/Home';
 // import Organisms    from './pages/info/styleguide/Organisms';
 // import Templates    from './pages/info/styleguide/Templates';
 
-// import ProjectsHome from './pages/projects/ProjectsHome'
+import ProjectsHome from './pages/projects/ProjectsHome'
 
 
 // import Governance from './pages/info/governance/Governance'
@@ -49,7 +49,7 @@ const router = createBrowserRouter(
             <Route index 
                 element = {<Home />}
             />
-            {/* <Route path = "info/"
+            <Route path = "info/"
                 element = {
                     <CategoryPagesLayout 
                         capname="Info" 
@@ -62,7 +62,7 @@ const router = createBrowserRouter(
                     />
             </Route>
             
-            <Route path ="info/"
+            {/* <Route path ="info/"
             >
                 <Route path = "governance" 
                     element = {<Governance />} 
@@ -127,7 +127,7 @@ const router = createBrowserRouter(
                         element = {<DetailPagesLayout name = 'templates' />} 
                     />
                 </Route>
-            </Route>
+            </Route> */}
             
             <Route path = "projects/"
                 element = {<CategoryPagesLayout capname="Projects" bgColour='blue0'/>} 
@@ -135,10 +135,11 @@ const router = createBrowserRouter(
                 <Route path = "" 
                 element ={<ProjectsHome />}
                 />
-                <Route path = "lists" 
+                {/* <Route path = "lists" 
                     element = {<ListPagesLayout name='projects' />} 
-                />
-                <Route path = ":id/" 
+                /> */}
+            </Route>
+          {/*      <Route path = ":id/" 
                     element = {<DetailPagesLayout />} 
                 />
                 <Route path = "careers" 
@@ -178,7 +179,7 @@ const router = createBrowserRouter(
                         element = {<Templates />} 
                     />
                 </Route>
-            </Route>
+            </Route>*/}
 
             <Route path = "services/"
                 element = {<CategoryPagesLayout capname="Services" bgColour='blue5'/>} 
@@ -186,7 +187,7 @@ const router = createBrowserRouter(
                 <Route path = "" 
                     
                 />
-                <Route path = "/:id" 
+                {/* <Route path = "/:id" 
                     element = {<DetailPagesLayout />} 
                 />
                 <Route path = "governance" 
@@ -228,8 +229,8 @@ const router = createBrowserRouter(
                     <Route path = "templates" 
                         element = {<Templates />} 
                     />
-                </Route>
-            </Route> */}
+                </Route> */}
+            </Route> 
 
             {/* Miscellaneous Pages */}
 

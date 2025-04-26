@@ -4,23 +4,21 @@ import hhh from '../../images/_partials/logos/kda_design_technologies_logo.jpg'
 const MainFooterNav = () => {
   return (
     <nav id="navigation"
-        className="grid gtc12 
-            min-vh-50 container container90" 
+        className="grid gtc12 ggap1-00 
+            container container90 pv1-00" 
         >
+            
             <section id="footer__about_me"  
-                className= "gc3s8 gr1s1 gr2s1-l gc1s4-l w-100"
-                data-use-new="true" 
-                role="tabpanel" 
+                className= "gc1s12 gr1s1  gc1s3-l  ba b--white-90 pa1-00"
                 aria-label="projects" 
-                section-index="2"
             >
                 <div 
-                    className="grid gtc12 ggap0-00 items-center pv1-00" 
+                    className="grid gtc12 ggap0-00 items-center" 
                     aria-hidden="False"
                 >
-                    <figure className="gc5s4 gc1s6-s flex gc1s5-m  gc4s6-l
+                    <figure className="gc4s6 gc2s4-s flex  gc4s6-l
                         gr1s1-m gr1s1-l
-                        items-start justify-start
+                        items-center justify-center
                         mb2-00 mb0-00-s pv2-00-m mb2-00-l
                         pb0-00-l"
                     >
@@ -31,7 +29,7 @@ const MainFooterNav = () => {
                     </figure> 
                     <div id="about_me" 
                         className="gc1s12 gc7s6-s gc7s6-m gc1s12-l gr2s1-l
-                            ml2-00-s ml0-00-m tj"
+                             tj"
                     >
                         <header className="pt0-00  ">
                             <h2 className="ttu tc">
@@ -50,7 +48,7 @@ const MainFooterNav = () => {
                         </p>
                     </div>
                     <nav id="m__socialMediaNav" 
-                        className="gc1s12 gc7s6-m gc1s12-l 
+                        className="gc1s12 
                             flex flex-column items-center justify-end 
                             w-100 
                             mv1-00 pv0-50 
@@ -129,18 +127,15 @@ const MainFooterNav = () => {
             </section>
 
             <section id="footer__courses" 
-                className="gc7s6 gr2s1 
-                    gc1s6- gr2s1-s 
-                    gc1s6-m gc6s3-l
+                className="gc1s12 gr2s1 
+                    gc1s6-m gc1s6-m 
+                    gc4s6-l gr1s1-l
                     white-90
-                    ml1-00-m" 
-                data-use-new="true" 
-                role="tabpanel" 
-                aria-label="principles" 
-                section-index="3"
+                    ba b--white-90 pa1-00" 
+                aria-label="principles"
             >
                 <div  id="" 
-                    className="mb2-00"
+                    className="mb2-00 grid gtc1 gtc2-s w-100"
                     data-use-new="true"
                 >
                     <nav aria-label="">
@@ -198,16 +193,11 @@ const MainFooterNav = () => {
                             </li>
                         </ul>
                     </nav>
-                </div>
-                <div  id="" 
-                    className="mb2-00"
-                    data-use-new="true"
-                >
                     <nav aria-label="">
                         <hgroup>
                             <h2 className="ttu"
                             >
-                                AEC Courses
+                                WEB DEV Courses
                             </h2>
                         </hgroup>
                         <ul className="">
@@ -258,67 +248,13 @@ const MainFooterNav = () => {
                             </li>
                         </ul>
                     </nav>
-                </div>
-            </section>
-
-            <section id="footer__discover" 
-                className="gc1s6 gr2s1
-                    gc1s6-s 
-                    gc7s6-m gr2s1-m gr2s1-s gc10s3-l
-                    " 
-                data-use-new="true" 
-                role="tabpanel" 
-                aria-label="PRACTICE" 
-                section-index="4"
-            >
-                <header>
-                    <h2 className="ttu white-90"
-                    >
-                        Discover
-                    </h2>
-                </header>
-
-                <div id=""
-                    className="mb2-00"  
-                    data-use-new="true">
                     <nav aria-label="practice">
-                        <ul className="">
-                            <li className="mb1-00 ">
-                                <a  className="white-90" 
-                                    href="{% url 'website:faqs">FAQs</a>
-                            </li>
-                            <li className="mb1-00 "><a  className="white-90" 
-                                    href="{% url 'website:finance">Financing Options</a></li>
-                            <li className="mb1-00 ">
-                                <a  className="white-90" 
-                                    href="{% url 'website:contact-me">Contact Me
-                                </a>
-                            </li>
-                            <li className="mb1-00 ">
-                                <a  className="white-90" 
-                                    href="">Blog
-                                </a>
-                            </li>
-                            <li className="mb1-00 ">
-                                <a  className="white-90" 
-                                    href="{% url 'website:download">Download
-                                </a>
-                            </li>
-                            
-                        </ul>
-                    </nav>
-                </div>
-
-                <div id=""
-                    className="mb2-00"  
-                    data-use-new="true">
                         <header>
-                    <h2 className="ttu white-90"
-                    >
-                        Discover
-                    </h2>
-                </header>
-                    <nav aria-label="practice">
+                            <h2 className="ttu white-90"
+                            >
+                                Discover
+                            </h2>
+                        </header>
                         <ul className="">
                             <li className="mb1-00 ">
                                 <a  className="white-90" 
@@ -344,17 +280,67 @@ const MainFooterNav = () => {
                             
                         </ul>
                     </nav>
+                    <nav aria-label="practice">
+                        <header>
+                            <h2 className="ttu white-90"
+                            >
+                                Discover
+                            </h2>
+                        </header>
+                        <ul className=""
+                        >
+                            <li className="mb1-00 "
+                            >
+                                <a  className="white-90" 
+                                    href=""
+                                >
+                                    FAQs
+                                </a>
+                            </li>
+                            <li className="mb1-00 "
+                            >
+                                <a  className="white-90" 
+                                    href=""
+                                >
+                                    Financing Options
+                                </a>
+                            </li>
+                            <li className="mb1-00 "
+                            >
+                                <a  className="white-90" 
+                                    href=""
+                                >
+                                    Contact Me
+                                </a>
+                            </li>
+                            <li className="mb1-00 "
+                            >
+                                <a  className="white-90" 
+                                    href=""
+                                >
+                                    Blog
+                                </a>
+                            </li>
+                            <li className="mb1-00 "
+                            >
+                                <a  className="white-90" 
+                                    href=""
+                                >
+                                    Download
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
                 </div>
-               
-
+                
             </section>
 
             <section id="recents" 
-                className="gr3s2 gc1s12 flex flex-column
-                    gc7s6-s gr2s1-s 
-                    gc7s6-m gc10s3-l tracked-tight" 
+                className="gc1s12 gr3s1 flex flex-column
+                    pa1-00
+                    gc7s6-m gc10s3-l tracked-tight ba b--white-90" 
 
-                data-use-new="true" 
                 role="tabpanel" 
                 aria-label="people" 
                 section-index=""
@@ -437,7 +423,9 @@ const MainFooterNav = () => {
                         </div>
                     </div>
                 </div>
+
             </section>
+
         </nav>
   )
 }

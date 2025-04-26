@@ -18,19 +18,19 @@ const MainHeader = () => {
     return (
         <article id="xxx-MainHeader"
             className={`flex items-center justify-center
-                w-100 w-100-m ${toggleMenu ? "h4-00" : "h-100"} of-hidden h4-00-m
+                w-100 ${toggleMenu ? "h4-00" : "h-100"}
                 pv0-25 mb2-00 bg-white
                 fixed z-5`}
         >
             <div id="xxx-MainHeader--content"
                 className="flex flex-column flex-row-m items-center
                     justify-start h-100
-                    container container90 
+                    container container90 of-hidden
                     "
             >
                 <section id="xxx-MainHeader--LogoAndMenuToggle"
                     className="flex justify-between items-center 
-                        w-100 w-40-m 
+                        w-100 w-40-m
 
                         mb1-50 mb0-00-m pa0-25 pv0-50-m ba b--white-50"
                 > 
@@ -46,12 +46,8 @@ const MainHeader = () => {
                 </section>
                 
                 <section id="xxx-MainHeader--NavigationAndUserAccounts"
-                    className="flex flex-column justify-around items-center  
-                    flex-row-m justify-between-m
-                    w-100
-                    pa2-00 pa0-25-m
-                    bg-white-2
-                    ba b--white-50"
+                    className={`flex flex-column justify-around items-center  
+                    flex-row-m justify-between-m w-100 pa2-00 pa0-25-m bg-white-2 ba b--white-50`}
                 >
                     <nav className="flex items-center justify-center
                         ma2-00 pa2-00
@@ -64,10 +60,10 @@ const MainHeader = () => {
                     >
                         <SecondaryNavigation />
                     </nav>
-                    <article className="flex-m mb4-00 mb0-00-m pa0-25 ba b--white-50"
+                    {/* <article className="flex-m mb4-00 mb0-00-m pa0-25 ba b--white-50"
                     >
                         <UserAccounts />
-                    </article>
+                    </article> */}
                 </section>
 
             </div>

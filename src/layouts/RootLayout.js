@@ -5,7 +5,7 @@ import MainHeader from "../components/organisms/MainHeader"
 export default function RootLayout() {
     return (
         <div id=""
-            className="flex flex-column"
+            className="flex flex-column h-100"
         >
             <header id="MainHeader"
             >
@@ -13,7 +13,7 @@ export default function RootLayout() {
             </header>
             
             <main id="MainContent"
-            className="min-vh-90"
+            className="min-h-100"
             >
                 <Outlet />
             </main>

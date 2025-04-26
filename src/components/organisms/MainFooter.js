@@ -1,6 +1,6 @@
 import React from 'react'
 
-// import MainFooterNav from './MainFooterNav'
+import MainFooterNav from './MainFooterNav'
 import MainFooterPoweredBy from './MainFooterPoweredBy'
 const MainFooter = () => {
   return (
@@ -11,7 +11,7 @@ const MainFooter = () => {
         aria-label=""
     >
 
-        {/* <MainFooterNav /> */}
+        <MainFooterNav />
         <MainFooterPoweredBy />
     </article>
   )

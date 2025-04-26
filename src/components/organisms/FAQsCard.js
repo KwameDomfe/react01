@@ -18,7 +18,8 @@ const FAQsCard = (props) => {
                         {question}
                     </div> 
                     <div >
-                        <button className="flex items-center justify-center h2-00 w2-00 
+                        <button type="submit" 
+                            className="flex items-center justify-center h2-00 w2-00 
                             f2-00 pb0-50
                             b ba br5-00"
                             onClick={() => setShowAnswer(!showAnswer)}
