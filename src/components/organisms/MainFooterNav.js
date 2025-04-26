@@ -1,5 +1,6 @@
 import React from 'react'
 import hhh from '../../images/_partials/logos/kda_design_technologies_logo.jpg'
+import { Link } from 'react-router-dom'
 
 const MainFooterNav = () => {
   return (
@@ -60,7 +61,7 @@ const MainFooterNav = () => {
                                 w-100 ma0-00 pa0-00"
                         >
                             <li className="ba br5-00 pa0-50 b--white-90 dib"> 
-                                <a href="" 
+                                <Link to="/" 
                                     title="Follow me on Twitter" 
                                     target="_blank" 
                                     rel="noopener noreferrer"
@@ -69,11 +70,11 @@ const MainFooterNav = () => {
                                         alt="" 
                                         className="w1-00"
                                     />
-                                </a>
+                                </Link>
                             </li>
                             <li className="ba br5-00 pa0-50 b--white-90 dib"
                             > 
-                                <a href="" 
+                                <Link to="/" 
                                     title="Follow me on Facebook" 
                                     target="_blank" 
                                     rel="noopener noreferrer"
@@ -82,10 +83,10 @@ const MainFooterNav = () => {
                                         alt="" 
                                         className="w1-00 white-90"
                                     />
-                                </a>
+                                </Link>
                             </li>
                             <li className="ba br5-00 pa0-50 b--white-90 dib"> 
-                                <a href="" 
+                                <Link to="/" 
                                     title="Connect with me on LinkedIn" 
                                     target="_blank" 
                                     rel="noopener noreferrer">
@@ -93,11 +94,11 @@ const MainFooterNav = () => {
                                         alt="" 
                                         className="w1-00"
                                     />
-                                </a>
+                                </Link>
                                 
                             </li>
                             <li className="ba br5-00 pa0-50 b--white-90 dib"> 
-                                <a href="" 
+                                <Link to="/" 
                                     title="Follow me on youtube" 
                                     target="_blank" 
                                     rel="noopener noreferrer"
@@ -106,11 +107,11 @@ const MainFooterNav = () => {
                                         alt="" 
                                         className="w1-00"
                                     />
-                                </a>
+                                </Link>
                             </li>
                             <li className="ba br5-00 pa0-50 b--white-90 dib"
                             > 
-                                <a href="" 
+                                <Link to="/" 
                                     title="Get In Touch on WhatsApp" 
                                     target="_blank" 
                                     rel="noopener noreferrer"
@@ -119,7 +120,7 @@ const MainFooterNav = () => {
                                         alt="" 
                                         className="w1-00"
                                     />
-                                </a>
+                                </Link>
                             </li>
                         </ul> 
                     </nav>
