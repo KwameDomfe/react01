@@ -34,7 +34,7 @@ const MainFooterNav = () => {
                     >
                         <header className="pt0-00  ">
                             <h2 className="ttu tc">
-                                <a className="white-90" href=""
+                                <a className="white-90" href="/"
                                     role="button" 
                                     aria-expanded="false"
                                 >about me</a>
@@ -150,14 +150,14 @@ const MainFooterNav = () => {
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""> 
+                                    href="/"> 
                                     Autodesk Revit Architecture
                                 </a>
                             </li>
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""
+                                    href="/"
                                 >
                                     Autodesk Revit Structures
                                 </a>
@@ -165,7 +165,7 @@ const MainFooterNav = () => {
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""
+                                    href="/"
                                 >
                                     Autodesk Revit MEP
                                 </a>
@@ -173,7 +173,7 @@ const MainFooterNav = () => {
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""
+                                    href="/"
                                 >
                                     Autodesk Naviswork Manage
                                 </a>
@@ -181,14 +181,14 @@ const MainFooterNav = () => {
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""
+                                    href="/"
                                 >
                                     Autodesk Dynamo
                                 </a>
                             </li>
                             <li className="mb1-00 ">
                                 <a  className="white-90" 
-                                    href=""> 
+                                    href="/"> 
                                     Python
                                 </a>
                             </li>
@@ -205,14 +205,14 @@ const MainFooterNav = () => {
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""> 
+                                    href="/"> 
                                     Autodesk Revit Architecture
                                 </a>
                             </li>
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""
+                                    href="/"
                                 >
                                     Autodesk Revit Structures
                                 </a>
@@ -220,7 +220,7 @@ const MainFooterNav = () => {
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""
+                                    href="/"
                                 >
                                     Autodesk Revit MEP
                                 </a>
@@ -228,7 +228,7 @@ const MainFooterNav = () => {
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""
+                                    href="/"
                                 >
                                     Autodesk Naviswork Manage
                                 </a>
@@ -236,14 +236,14 @@ const MainFooterNav = () => {
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""
+                                    href="/"
                                 >
                                     Autodesk Dynamo
                                 </a>
                             </li>
                             <li className="mb1-00 ">
                                 <a  className="white-90" 
-                                    href=""> 
+                                    href="/"> 
                                     Python
                                 </a>
                             </li>
@@ -270,7 +270,7 @@ const MainFooterNav = () => {
                             </li>
                             <li className="mb1-00 ">
                                 <a  className="white-90" 
-                                    href="">Blog
+                                    href="/">Blog
                                 </a>
                             </li>
                             <li className="mb1-00 ">
@@ -293,7 +293,7 @@ const MainFooterNav = () => {
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""
+                                    href="/"
                                 >
                                     FAQs
                                 </a>
@@ -301,7 +301,7 @@ const MainFooterNav = () => {
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""
+                                    href="/"
                                 >
                                     Financing Options
                                 </a>
@@ -309,7 +309,7 @@ const MainFooterNav = () => {
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""
+                                    href="/"
                                 >
                                     Contact Me
                                 </a>
@@ -317,7 +317,7 @@ const MainFooterNav = () => {
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""
+                                    href="/"
                                 >
                                     Blog
                                 </a>
@@ -325,7 +325,7 @@ const MainFooterNav = () => {
                             <li className="mb1-00 "
                             >
                                 <a  className="white-90" 
-                                    href=""
+                                    href="/"
                                 >
                                     Download
                                 </a>
