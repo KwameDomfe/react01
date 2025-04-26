@@ -2,7 +2,11 @@ import React from 'react'
 
 const AddressCard = (props) => {
     
-    const {image, alt, bgColour, title, description} = props
+    const {
+        // image, 
+        // alt, 
+        // bgColour, 
+        title, description} = props
     
     return (
         <figure className="grid gtc2 

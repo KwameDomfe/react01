@@ -2,7 +2,9 @@ import React from 'react'
 
 const GlobabuildCard = (props) => {
     
-    const {image, alt, title, description} = props
+    const {
+        // image, alt, 
+        title, description} = props
     
     return (
         <div className="grid gtc2 
